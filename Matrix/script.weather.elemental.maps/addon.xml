@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.weather.elemental.maps" name="Elemental Weather Maps" version="1.0.0" provider-name="Psychosaurian">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="script.module.requests" version="2.22.0+matrix.1"/>
+		<import addon="script.module.arrow"/>
+	</requires>
+	<extension point="xbmc.python.library" library="main.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Elemental Weather Maps</summary>
+		<description lang="en">The Weather Channel and OpenWeatherMap map downloader for Elemental Weather.[CR][CR]Fanart image by wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="en">Not affiliated or endorsed by IBM or The Weather Channel. User assumes all responsibility for the legality of the API key used. You expressly acknowledge and agree that use of this addon is at your sole risk. Psychosaurian does not warrant that this addon will meet your requirements, or that it's operation will be uninterrupted or error-free, or that defects in the addon will be corrected.</disclaimer>
+		<summary lang="fr">Cartes Elemental Weather</summary>
+		<description lang="fr">Le téléchargeur de cartes Weather Channel et OpenWeatherMap pour Elemental Weather.[CR][CR]Image de fanart par wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="fr">Non affilié ou approuvé par IBM ou The Weather Channel. L'utilisateur assume l'entière responsabilité de la légalité de la clé API utilisée. Vous reconnaissez et acceptez expressément que l’utilisation de cet addon est à vos seuls risques. Psychosaurian ne garantit pas que cet addon répondra à vos exigences, ou que son fonctionnement sera ininterrompu ou sans erreur, ou que les défauts de l'addon seront corrigés.</disclaimer>
+		<summary lang="es">Mapas Elemental Weather</summary>
+		<description lang="es">El descargador de mapas Weather Channel y OpenWeatherMap para Elemental Weather.[CR][CR]Imagen fanart de wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="es">No afiliado ni respaldado por IBM o The Weather Channel. El usuario asume toda la responsabilidad por la legalidad de la clave API utilizada. Usted reconoce y acepta expresamente que el uso de este complemento es bajo su propio riesgo. Psychosaurian no garantiza que este complemento cumplirá con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos del complemento.</disclaimer>
+		<summary lang="pt">Mapas Elemental Weather</summary>
+		<description lang="pt">O downloader de mapas Weather Channel e OpenWeatherMap para Elemental Weather.[CR][CR]Imagem de fanart por wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="pt">Não afiliado ou endossado pela IBM ou The Weather Channel. O usuário assume toda a responsabilidade pela legalidade da chave API utilizada. Você reconhece e concorda expressamente que o uso deste complemento é por sua conta e risco. A Psychosaurian não garante que este complemento atenda às suas necessidades, ou que sua operação seja ininterrupta ou livre de erros, ou que defeitos no complemento sejam corrigidos.</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="weather.elemental" name="Elemental Weather" version="1.0.2" provider-name="Psychosaurian">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.arrow" />
+		<import addon="script.weather.elemental.maps" />		
+		<import addon="script.module.debugpy" />
+	</requires>
+	<extension point="xbmc.python.weather" library="main.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Weather Channel forecast</summary>
+		<description lang="en">Weather forecast provided by The Weather Channel (IBM).[CR][CR]Usage instructions at[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_en[/I][CR][CR]Icon background by Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Fanart image by Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<description lang="en_US">Weather forecast provided by The Weather Channel (IBM).[CR][CR]Usage instructions at[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_en-us[/I][CR][CR]Icon background by Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Fanart image by Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="en">Not affiliated or endorsed by IBM or The Weather Channel. You expressly acknowledge and agree that use of this addon is at your sole risk. Psychosaurian does not warrant that this addon will meet your requirements, or that it's operation will be uninterrupted or error-free, or that defects in the addon will be corrected.</disclaimer>
+		<summary lang="fr">Prévisions de The Weather Channel</summary>
+		<description lang="fr">Prévisions météorologiques fournies par The Weather Channel (IBM).[CR][CR]Instructions d'utilisation sur[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_fr[/I][CR][CR]Fond d'icône par Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Image de fanart par Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="fr">Non affilié ou approuvé par IBM ou The Weather Channel. Vous reconnaissez et acceptez expressément que l’utilisation de cet addon est à vos seuls risques. Psychosaurian ne garantit pas que cet addon répondra à vos exigences, ou que son fonctionnement sera ininterrompu ou sans erreur, ou que les défauts de l'addon seront corrigés.</disclaimer>
+		<summary lang="es">El pronóstico del The Weather Channel</summary>
+		<description lang="es">Pronóstico del tiempo proporcionado por The Weather Channel (IBM).[CR][CR]Instrucciones de uso en[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_es[/I][CR][CR]Fondo de icono de Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Imagen fanart de Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="es">No afiliado ni respaldado por IBM o The Weather Channel. Usted reconoce y acepta expresamente que el uso de este complemento es bajo su propio riesgo. Psychosaurian no garantiza que este complemento cumplirá con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos del complemento.</disclaimer>
+		<summary lang="pt">A previsão do Weather Channel</summary>
+		<description lang="pt">Previsão do tempo fornecida pelo The Weather Channel (IBM).[CR][CR]Instruções de uso em[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_pt[/I][CR][CR]Fundo do ícone por Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Imagem de fanart de Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="pt">Não afiliado ou endossado pela IBM ou The Weather Channel. Você reconhece e concorda expressamente que o uso deste complemento é por sua conta e risco. A Psychosaurian não garante que este complemento atenda às suas necessidades, ou que sua operação seja ininterrupta ou livre de erros, ou que defeitos no complemento sejam corrigidos.</disclaimer>
+		<summary lang="it">Le previsioni di Weather Channel</summary>
+		<description lang="it">Previsioni meteorologiche fornite da The Weather Channel (IBM).[CR][CR]Istruzioni per l'uso su[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_it[/I][CR][CR]Sfondo icona di Ruvim.[CR][CR][I]https://www.pexels.com/photo / ...[CR]   white-clouds-3560044[/I][CR][CR]Immagine fanart di Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ . ..[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="it">Non affiliato o approvato da IBM o The Weather Channel. Riconosci e accetti espressamente che l'utilizzo di questo componente aggiuntivo è a tuo esclusivo rischio. Psychosaurian non garantisce che questo componente aggiuntivo soddisferà le tue esigenze, o che il suo funzionamento sarà ininterrotto o privo di errori, o che i difetti del componente aggiuntivo verranno corretti.</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon><addon id="script.weather.elemental.maps" name="Elemental Weather Maps" version="1.0.0" provider-name="Psychosaurian">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.pil" version="1.1.7" />
+		<import addon="script.module.requests" version="2.22.0+matrix.1" />
+		<import addon="script.module.arrow" />
+	</requires>
+	<extension point="xbmc.python.library" library="main.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Elemental Weather Maps</summary>
+		<description lang="en">The Weather Channel and OpenWeatherMap map downloader for Elemental Weather.[CR][CR]Fanart image by wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="en">Not affiliated or endorsed by IBM or The Weather Channel. User assumes all responsibility for the legality of the API key used. You expressly acknowledge and agree that use of this addon is at your sole risk. Psychosaurian does not warrant that this addon will meet your requirements, or that it's operation will be uninterrupted or error-free, or that defects in the addon will be corrected.</disclaimer>
+		<summary lang="fr">Cartes Elemental Weather</summary>
+		<description lang="fr">Le téléchargeur de cartes Weather Channel et OpenWeatherMap pour Elemental Weather.[CR][CR]Image de fanart par wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="fr">Non affilié ou approuvé par IBM ou The Weather Channel. L'utilisateur assume l'entière responsabilité de la légalité de la clé API utilisée. Vous reconnaissez et acceptez expressément que l’utilisation de cet addon est à vos seuls risques. Psychosaurian ne garantit pas que cet addon répondra à vos exigences, ou que son fonctionnement sera ininterrompu ou sans erreur, ou que les défauts de l'addon seront corrigés.</disclaimer>
+		<summary lang="es">Mapas Elemental Weather</summary>
+		<description lang="es">El descargador de mapas Weather Channel y OpenWeatherMap para Elemental Weather.[CR][CR]Imagen fanart de wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="es">No afiliado ni respaldado por IBM o The Weather Channel. El usuario asume toda la responsabilidad por la legalidad de la clave API utilizada. Usted reconoce y acepta expresamente que el uso de este complemento es bajo su propio riesgo. Psychosaurian no garantiza que este complemento cumplirá con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos del complemento.</disclaimer>
+		<summary lang="pt">Mapas Elemental Weather</summary>
+		<description lang="pt">O downloader de mapas Weather Channel e OpenWeatherMap para Elemental Weather.[CR][CR]Imagem de fanart por wired_optics.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   view-of-puffy-clouds-13618877[/I]</description>
+		<disclaimer lang="pt">Não afiliado ou endossado pela IBM ou The Weather Channel. O usuário assume toda a responsabilidade pela legalidade da chave API utilizada. Você reconhece e concorda expressamente que o uso deste complemento é por sua conta e risco. A Psychosaurian não garante que este complemento atenda às suas necessidades, ou que sua operação seja ininterrupta ou livre de erros, ou que defeitos no complemento sejam corrigidos.</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon><addon id="repository.psychosaurian" name="Psychosaurian Repository" version="1.0.0" provider-name="Psychosaurian">
+    <extension point="xbmc.addon.repository" name="Psychosaurian Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://psychosaurian.github.io/Matrix/addons.xml</info>
+            <checksum>https://psychosaurian.github.io/Matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://psychosaurian.github.io/Matrix/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en">Psychosaurian Kodi Repository</summary>
+        <description lang="en">Repository for Psychosaurian unofficial Kodi addons.[CR][CR]Icon background and Fanart image by Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="en">The addons in this repository are not part of Kodi Media Center nor endorsed by The Kodi Foundation. You expressly acknowledge and agree that use of these addons is at your sole risk. Psychosaurian does not warrant that these addons will meet your requirements, or that their operation will be uninterrupted or error-free, or that defects in the addons will be corrected.</disclaimer>
+        <summary lang="fr">Référentiel Kodi psychosaurien</summary>
+        <description lang="fr">Référentiel pour les addons Kodi non officiels de Psychosaurian.[CR][CR]Fond d'icône et image Fanart par Phil Kallaharkoko.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="fr">Les modules complémentaires de ce référentiel ne font pas partie de Kodi Media Center ni approuvés par la Fondation Kodi. Vous reconnaissez et acceptez expressément que l’utilisation de ces modules complémentaires se fait à vos seuls risques. Psychosaurian ne garantit pas que ces modules complémentaires répondront à vos exigences, ou que leur fonctionnement sera ininterrompu ou sans erreur, ou que les défauts des modules complémentaires seront corrigés.</disclaimer>
+        <summary lang="es">Repositorio Kodi Psychosaurian</summary>
+        <description lang="es">Repositorio de complementos no oficiales de Kodi de Psychosaurian.[CR][CR]Fondo de iconos e imagen de Fanart de Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="es">Los complementos de este repositorio no forman parte de Kodi Media Center ni están respaldados por la Fundación Kodi. Usted reconoce y acepta expresamente que el uso de estos complementos es bajo su propio riesgo. Psychosaurian no garantiza que estos complementos cumplirán con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos en los complementos.</disclaimer>
+        <summary lang="pt">Repositório Kodi Psychosaurian</summary>
+        <description lang="pt">Repositório para complementos não oficiais do Psychosaurian Kodi.[CR][CR]Fundo do ícone e imagem Fanart de Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="pt">Os complementos neste repositório não fazem parte do Kodi Media Center nem são endossados pela Fundação Kodi. Você reconhece e concorda expressamente que o uso desses complementos é por sua conta e risco. A Psychosaurian não garante que esses complementos atenderão às suas necessidades, ou que sua operação será ininterrupta ou livre de erros, ou que defeitos nos complementos serão corrigidos.</disclaimer>
+        <summary lang="it">Repository Kodi Psychosaurian</summary>
+        <description lang="it">Repository per i componenti aggiuntivi non ufficiali di Kodi di Psychosaurian.[CR][CR]Sfondo dell'icona e immagine Fanart di Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="it">I componenti aggiuntivi presenti in questo repository non fanno parte di Kodi Media Center né sono approvati dalla Kodi Foundation. Riconosci e accetti espressamente che l'uso di questi componenti aggiuntivi è a tuo esclusivo rischio. Psychosaurian non garantisce che questi componenti aggiuntivi soddisferanno le tue esigenze, o che il loro funzionamento sarà ininterrotto o privo di errori, o che i difetti nei componenti aggiuntivi verranno corretti.</disclaimer>
+    </extension>
+</addon><addon id="script.module.debugpy" name="debugpy" version="1.8.1" provider-name="Psychosaurian, Microsoft">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="microsoft" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi remote debugging support for Visual Studio Code.</summary>
+    <description lang="en">Kodi wrapper for the Visual Studio/Visual Studio Code debugpy library by Microsoft. Kodi wrapper by Psychosaurian.[CR][CR]The version number of this addon matches the version of debugpy included. See usage instructions in addon directory or at:[CR][CR]https://github.com/Psychosaurian/script.module.debugpy</description>
+    <disclaimer lang="en">debugpy is the work of Microsoft. Phychosaurian is responsible solely for packaging it for Kodi.[CR][CR]Psychosaurian makes no warranty that...[CR][CR]- this software will meet your requirements[CR]- this software will work as described and be error-free[CR]- the quality of this software will meet your expectations[CR]- any errors in this software or documentation will be corrected[CR][CR]This software or documentation...[CR][CR]- Could include technical or other mistakes, inaccuracies or typographical errors. Psychosaurian may make changes to this software or documentation without notice.[CR]- May be out of date and Psychosaurian makes no commitment to update these materials.[CR][CR]Psychosaurian assumes no responsibility for errors or ommissions in this software or documentation.[CR][CR]In no event shall Psychosaurian be liable to you or any third parties for any special, punitive, incidental, indirect or consequential damages of any kind, or any damages whatsoever, including, without limitation, those resulting from loss of use, data, or profits, whether or not Psychosaurian has been advised of the possibility of such damages, and on any theory of liability, arising out of or in connection with the use of this software.[CR][CR]The use of this software is done at your own discretion and risk and with agreement that you will be solely responsible for any damage to your computer systems or electronic devices and any loss of data that results from such activities. No advice or information, whether oral or written, obtained by you from Psychosaurian shall create any warranty for the software.
+</disclaimer>
+	<platform>windows osx</platform>
+    <license>Eclipse Public License 1.0 (EPL-1.0 license)</license>
+    <website>https://github.com/Psychosaurian/script.module.debugpy</website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon></addons>

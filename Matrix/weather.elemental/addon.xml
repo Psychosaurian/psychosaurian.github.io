@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="weather.elemental" name="Elemental Weather" version="1.0.2" provider-name="Psychosaurian">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.arrow"/>
+		<import addon="script.weather.elemental.maps"/>		
+		<import addon="script.module.debugpy"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="main.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Weather Channel forecast</summary>
+		<description lang="en">Weather forecast provided by The Weather Channel (IBM).[CR][CR]Usage instructions at[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_en[/I][CR][CR]Icon background by Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Fanart image by Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<description lang="en_US">Weather forecast provided by The Weather Channel (IBM).[CR][CR]Usage instructions at[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_en-us[/I][CR][CR]Icon background by Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Fanart image by Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="en">Not affiliated or endorsed by IBM or The Weather Channel. You expressly acknowledge and agree that use of this addon is at your sole risk. Psychosaurian does not warrant that this addon will meet your requirements, or that it's operation will be uninterrupted or error-free, or that defects in the addon will be corrected.</disclaimer>
+		<summary lang="fr">Prévisions de The Weather Channel</summary>
+		<description lang="fr">Prévisions météorologiques fournies par The Weather Channel (IBM).[CR][CR]Instructions d'utilisation sur[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_fr[/I][CR][CR]Fond d'icône par Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Image de fanart par Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="fr">Non affilié ou approuvé par IBM ou The Weather Channel. Vous reconnaissez et acceptez expressément que l’utilisation de cet addon est à vos seuls risques. Psychosaurian ne garantit pas que cet addon répondra à vos exigences, ou que son fonctionnement sera ininterrompu ou sans erreur, ou que les défauts de l'addon seront corrigés.</disclaimer>
+		<summary lang="es">El pronóstico del The Weather Channel</summary>
+		<description lang="es">Pronóstico del tiempo proporcionado por The Weather Channel (IBM).[CR][CR]Instrucciones de uso en[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_es[/I][CR][CR]Fondo de icono de Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Imagen fanart de Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="es">No afiliado ni respaldado por IBM o The Weather Channel. Usted reconoce y acepta expresamente que el uso de este complemento es bajo su propio riesgo. Psychosaurian no garantiza que este complemento cumplirá con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos del complemento.</disclaimer>
+		<summary lang="pt">A previsão do Weather Channel</summary>
+		<description lang="pt">Previsão do tempo fornecida pelo The Weather Channel (IBM).[CR][CR]Instruções de uso em[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_pt[/I][CR][CR]Fundo do ícone por Ruvim.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   white-clouds-3560044[/I][CR][CR]Imagem de fanart de Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="pt">Não afiliado ou endossado pela IBM ou The Weather Channel. Você reconhece e concorda expressamente que o uso deste complemento é por sua conta e risco. A Psychosaurian não garante que este complemento atenda às suas necessidades, ou que sua operação seja ininterrupta ou livre de erros, ou que defeitos no complemento sejam corrigidos.</disclaimer>
+		<summary lang="it">Le previsioni di Weather Channel</summary>
+		<description lang="it">Previsioni meteorologiche fornite da The Weather Channel (IBM).[CR][CR]Istruzioni per l'uso su[CR][CR]   [I]https://sites.google.com/view/psychosaurian/ ...[CR]      home/weather-elemental/readme_it[/I][CR][CR]Sfondo icona di Ruvim.[CR][CR][I]https://www.pexels.com/photo / ...[CR]   white-clouds-3560044[/I][CR][CR]Immagine fanart di Johannes Plenio.[CR][CR][I]https://www.pexels.com/photo/ . ..[CR]   island-during-golden-hour- ...[CR]      and-upcoming-storm-1118873[/I]</description>
+		<disclaimer lang="it">Non affiliato o approvato da IBM o The Weather Channel. Riconosci e accetti espressamente che l'utilizzo di questo componente aggiuntivo è a tuo esclusivo rischio. Psychosaurian non garantisce che questo componente aggiuntivo soddisferà le tue esigenze, o che il suo funzionamento sarà ininterrotto o privo di errori, o che i difetti del componente aggiuntivo verranno corretti.</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

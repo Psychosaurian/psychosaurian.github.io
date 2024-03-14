@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.psychosaurian" name="Psychosaurian Repository" version="1.0.0" provider-name="Psychosaurian">
+    <extension point="xbmc.addon.repository" name="Psychosaurian Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://psychosaurian.github.io/Matrix/addons.xml</info>
+            <checksum>https://psychosaurian.github.io/Matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://psychosaurian.github.io/Matrix/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en">Psychosaurian Kodi Repository</summary>
+        <description lang="en">Repository for Psychosaurian unofficial Kodi addons.[CR][CR]Icon background and Fanart image by Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="en">The addons in this repository are not part of Kodi Media Center nor endorsed by The Kodi Foundation. You expressly acknowledge and agree that use of these addons is at your sole risk. Psychosaurian does not warrant that these addons will meet your requirements, or that their operation will be uninterrupted or error-free, or that defects in the addons will be corrected.</disclaimer>
+        <summary lang="fr">Référentiel Kodi psychosaurien</summary>
+        <description lang="fr">Référentiel pour les addons Kodi non officiels de Psychosaurian.[CR][CR]Fond d'icône et image Fanart par Phil Kallaharkoko.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="fr">Les modules complémentaires de ce référentiel ne font pas partie de Kodi Media Center ni approuvés par la Fondation Kodi. Vous reconnaissez et acceptez expressément que l’utilisation de ces modules complémentaires se fait à vos seuls risques. Psychosaurian ne garantit pas que ces modules complémentaires répondront à vos exigences, ou que leur fonctionnement sera ininterrompu ou sans erreur, ou que les défauts des modules complémentaires seront corrigés.</disclaimer>
+        <summary lang="es">Repositorio Kodi Psychosaurian</summary>
+        <description lang="es">Repositorio de complementos no oficiales de Kodi de Psychosaurian.[CR][CR]Fondo de iconos e imagen de Fanart de Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="es">Los complementos de este repositorio no forman parte de Kodi Media Center ni están respaldados por la Fundación Kodi. Usted reconoce y acepta expresamente que el uso de estos complementos es bajo su propio riesgo. Psychosaurian no garantiza que estos complementos cumplirán con sus requisitos, ni que su funcionamiento será ininterrumpido o libre de errores, ni que se corregirán los defectos en los complementos.</disclaimer>
+        <summary lang="pt">Repositório Kodi Psychosaurian</summary>
+        <description lang="pt">Repositório para complementos não oficiais do Psychosaurian Kodi.[CR][CR]Fundo do ícone e imagem Fanart de Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="pt">Os complementos neste repositório não fazem parte do Kodi Media Center nem são endossados pela Fundação Kodi. Você reconhece e concorda expressamente que o uso desses complementos é por sua conta e risco. A Psychosaurian não garante que esses complementos atenderão às suas necessidades, ou que sua operação será ininterrupta ou livre de erros, ou que defeitos nos complementos serão corrigidos.</disclaimer>
+        <summary lang="it">Repository Kodi Psychosaurian</summary>
+        <description lang="it">Repository per i componenti aggiuntivi non ufficiali di Kodi di Psychosaurian.[CR][CR]Sfondo dell'icona e immagine Fanart di Phil Kallahar.[CR][CR][I]https://www.pexels.com/photo/ ...[CR]   photo-of-dried-lava-983200[/I]</description>
+		<disclaimer lang="it">I componenti aggiuntivi presenti in questo repository non fanno parte di Kodi Media Center né sono approvati dalla Kodi Foundation. Riconosci e accetti espressamente che l'uso di questi componenti aggiuntivi è a tuo esclusivo rischio. Psychosaurian non garantisce che questi componenti aggiuntivi soddisferanno le tue esigenze, o che il loro funzionamento sarà ininterrotto o privo di errori, o che i difetti nei componenti aggiuntivi verranno corretti.</disclaimer>
+    </extension>
+</addon>
